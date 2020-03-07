@@ -1,9 +1,16 @@
 import React from 'react';
+import Rooms from './pages/Rooms';
+import Home from './pages/Home';
+import Error from './pages/Error';
+import SingleRoom from './pages/SingleRoom';
 
 const App = () => {
   return (
     <>
-      Hello World
+      <Home />
+      <Rooms />
+      <SingleRoom />
+      <Error />
     </>
   );
 }
